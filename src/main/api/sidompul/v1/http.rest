@@ -1,6 +1,3 @@
-@msisdn=6281938064470
-@pin=5714
-@otp=123456
 
 ### Content Api Denom
 GET http://localhost:3000/api/sidompul/v1/getV1ContentApiDenom?brand=XL

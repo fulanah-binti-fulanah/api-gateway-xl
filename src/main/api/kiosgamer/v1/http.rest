@@ -1,6 +1,6 @@
 
 ### Login
-GET http://localhost:3000/api/kiosgamer/v1/getApiLogin?account=anndallaz&password=-%3EYakinSukses_58
+GET http://localhost:3000/api/kiosgamer/v1/getApiLogin?account={{account}}&password={{password}}
 
 ### Logout
 GET http://localhost:3000/api/kiosgamer/v1/getApiAuthLogout?

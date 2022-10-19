@@ -1,6 +1,4 @@
-@msisdn=6281935155404
-@pin=159357
-@otp=ABCDEF
+
 
 ### Balance Share Fee Include Axis
 GET http://localhost:3000/api/myxl/v1/postSharingsApiV1BalanceShareFeeIncludeAxis?
