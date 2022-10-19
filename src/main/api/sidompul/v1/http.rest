@@ -1,0 +1,161 @@
+@msisdn=6281938064470
+@pin=5714
+@otp=123456
+
+### Content Api Denom
+GET http://localhost:3000/api/sidompul/v1/getV1ContentApiDenom?brand=XL
+
+### Loyalty Upsell Offer W2p
+GET http://localhost:3000/api/sidompul/v1/getV2LoyaltyUpsellOfferW2p?msisdn=6281935155404&quota=5000
+
+### Trx W2p
+GET http://localhost:3000/api/sidompul/v1/postV1TrxW2p?denom=5000&msisdn=6281935155404&pin={{pin}}
+
+### Content Next Best Offer
+GET http://localhost:3000/api/sidompul/v1/getV2ContentNextBestOffer?msisdn=6281935155404&location=NBO&maxOffer=5
+
+### Content Profiling Productcategoriesv2
+GET http://localhost:3000/api/sidompul/v1/getV2ContentProfilingProductcategoriesv2?brand=XL
+
+### Content Profiling Productitemlistv2
+GET http://localhost:3000/api/sidompul/v1/getV2ContentProfilingProductitemlistv2?brand=XL&product-category=XTRA+COMBO+FLEX&msisdn-b=6281935155404
+
+### Content Productbestoffer
+GET http://localhost:3000/api/sidompul/v1/getV2ContentProductbestoffer?brand=XL&product-category=XTRA+COMBO+FLEX&msisdn-b=6281935155404
+
+### Loyalty Upsell Offer
+GET http://localhost:3000/api/sidompul/v1/getV2LoyaltyUpsellOffer?msisdn=6281935155404&productId=FXSP29
+
+### Upgrade4g Simcard Status4g
+GET http://localhost:3000/api/sidompul/v1/getV1Upgrade4gSimcardStatus4g?phonePrefix=6281935155404
+
+### Trx Package
+GET http://localhost:3000/api/sidompul/v1/postV1TrxPackage?msisdn=6281935155404&offerId=&originalProduct=FXSP29&pin={{pin}}&productCode=FXSP29
+
+### Trx Package
+GET http://localhost:3000/api/sidompul/v1/postV2TrxPackage?msisdn=6281935155404&offerId=197909&originalProduct=&pin={{pin}}&productCode=p1wG1LCgJkVq2RkwZWfAzluKhY2%252FJ6tPEuDhqtgiJHzutN7S8pAPK2mNzTfWDrAdyKsvkl4OHAPYlV32gI7pMSNGJCht0s3uhQqkKS5HRfEHj8xPsKz%252FsFRy0hbhf2%252FyiXF%252FwIBaMkZmHPpFtmhDJcSwHoxFIl4Q7nidBICHsuIHjb9sbvv1j6ZChErVxvIUjh7oMUG4wg6cWmLrk83zUQ%253D%253D
+
+
+
+
+
+
+### Trx Claim Tagging Ro
+GET http://localhost:3000/api/sidompul/v1/postV1TrxClaimTaggingRo?inputValidation=666999&msisdn=6281935155404&pin={{pin}}&programId=HOT100&programType=SP
+
+### Trx Claim Tagging Ro
+GET http://localhost:3000/api/sidompul/v1/postV1TrxClaimTaggingRo?inputValidation=666999&msisdn=6281935155404&pin={{pin}}&programId=HOT100&programType=VOUCHER
+
+### Trx Claim Tagging Ro
+GET http://localhost:3000/api/sidompul/v1/postV1TrxClaimTaggingRo?inputValidation=666999&msisdn=6281935155404&pin={{pin}}&programId=HOT100&programType=SPBUNDLING
+
+
+
+
+
+
+### Trx Redeem Voucher Sa
+GET http://localhost:3000/api/sidompul/v1/postV1TrxRedeemVoucherSa?hrn=0147025803690147&msisdn=6281935155404&pin={{pin}}
+
+
+
+
+
+
+### Common Voucher
+GET http://localhost:3000/api/sidompul/v1/getV2CommonVoucher?type=SA&voucherCode=0147025803690147
+
+### Common Voucher
+GET http://localhost:3000/api/sidompul/v1/getV2CommonVoucher?type=HYBRID&voucherCode=0147025803690147
+
+### Common Voucher
+GET http://localhost:3000/api/sidompul/v1/getV2CommonVoucher?type=AIGO&voucherCode=0147025803690147
+
+
+
+
+
+
+### Common Prefix
+GET http://localhost:3000/api/sidompul/v1/getV1CommonPrefix?msisdn=6281935155404
+
+### Package Check4gstatus
+GET http://localhost:3000/api/sidompul/v1/getV2PackageCheck4gstatus?msisdn=6281935155404
+
+### Bonus
+GET http://localhost:3000/api/sidompul/v1/getV1Bonus?msisdn=6281935155404
+
+### Package Check Dukcapil
+GET http://localhost:3000/api/sidompul/v1/getV2PackageCheckDukcapil?msisdn=6281935155404
+
+### Package Check
+GET http://localhost:3000/api/sidompul/v1/getV2PackageCheck?msisdn=6281935155404
+
+### Package Check Tenure
+GET http://localhost:3000/api/sidompul/v1/getV2PackageCheckTenure?msisdn=6281935155404
+
+### Package Check Spexpdate
+GET http://localhost:3000/api/sidompul/v1/getV2PackageCheckSpexpdate?msisdn=6281935155404
+
+### Common Prefix
+GET http://localhost:3000/api/sidompul/v1/getV1CommonPrefix?msisdn=6281935155404
+
+### Package Check Balance
+GET http://localhost:3000/api/sidompul/v1/getV2PackageCheckBalance?msisdn=6281935155404
+
+
+
+
+
+
+### Package Eligibility
+GET http://localhost:3000/api/sidompul/v1/getV1PackageEligibility?msisdn=6281935155404&eligibility=A
+
+### Package Eligibility
+GET http://localhost:3000/api/sidompul/v1/getV1PackageEligibility?msisdn=6281935155404&eligibility=B
+
+
+
+
+
+
+### Package Validity
+GET http://localhost:3000/api/sidompul/v1/getV1PackageValidity?msisdn=6281935155404&voucherCode=0147025803690147
+
+### Upgrade 4g Simcard Status4g
+GET http://localhost:3000/api/sidompul/v1/getV1Upgrade4gSimcardStatus4g?msisdn=6281935155404
+
+### Trx History
+GET http://localhost:3000/api/sidompul/v1/getV3TrxHistory?servicetype=w2p-fulfillment-w2w-other-payro-games&startdate=2022-10-11&enddate=2022-10-17&startamount=100&endamount=1000000000&q=
+
+### Content Api News
+GET http://localhost:3000/api/sidompul/v1/getV1ContentApiNews?news-category=product
+
+### Content Api News
+GET http://localhost:3000/api/sidompul/v1/getV1ContentApiNews?news-category=outlet+news
+
+### Inbox
+GET http://localhost:3000/api/sidompul/v1/getV1Inbox?
+
+### Account Balance
+GET http://localhost:3000/api/sidompul/v1/getV1AccountBalance?
+
+### Account Profile
+GET http://localhost:3000/api/sidompul/v1/getV1AccountProfile?
+
+
+
+
+
+
+### Login Token Refresh
+GET http://localhost:3000/api/sidompul/v1/postV1LoginTokenRefresh?
+
+### Auth Logout
+GET http://localhost:3000/api/sidompul/v1/postV3AuthLogout?
+
+### Auth
+GET http://localhost:3000/api/sidompul/v1/postV1AuthOtp?msisdn={{msisdn}}
+
+### Auth Otp
+GET http://localhost:3000/api/sidompul/v1/getV3AuthOtp?msisdn={{msisdn}}&otp={{otp}}

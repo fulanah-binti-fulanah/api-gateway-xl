@@ -1,0 +1,27 @@
+
+### Login
+GET http://localhost:3000/api/kiosgamer/v1/getApiLogin?account=anndallaz&password=-%3EYakinSukses_58
+
+### Logout
+GET http://localhost:3000/api/kiosgamer/v1/getApiAuthLogout?
+
+### Shop History
+GET http://localhost:3000/api/kiosgamer/v1/getApiShopHistory?start_ts=2022-10-19&end_ts=2022-10-19&limit=20&offset=0
+
+### Shop To Friend History
+GET http://localhost:3000/api/kiosgamer/v1/getApiShopToFriendHistory?start_ts=2022-10-19&end_ts=2022-10-19&limit=20&offset=0
+
+### Player Id Login
+GET http://localhost:3000/api/kiosgamer/v1/postApiAuthPlayerIdLogin?login_id=3182855478
+
+### Shop Apps Channels
+GET http://localhost:3000/api/kiosgamer/v1/getApiShopAppsChannels?
+
+### Shop Pay Init
+GET http://localhost:3000/api/kiosgamer/v1/postApiShopPayInit?item_id=1&player_id=3182855478A
+
+### Shop Pay Init
+GET http://localhost:3000/api/kiosgamer/v1/postApiShopPayInit?item_id=1&card_password=7683125463087962
+
+### Get User Inf
+GET http://localhost:3000/api/kiosgamer/v1/getApiAuthGetUserInfo?
