@@ -94,3 +94,7 @@ src/**/**/**/**/*.js
 *.html
 *.json
 *.lock
+*.scss
+*.png
+*.ico
+*.webmanifest
