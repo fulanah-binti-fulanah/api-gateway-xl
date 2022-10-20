@@ -1,2 +1,0 @@
-### Transaksi
-GET http://localhost:3000/svc/transaksi?kode_produk=sidompul-xl-5000&tujuan=6281935155404&pin=5714

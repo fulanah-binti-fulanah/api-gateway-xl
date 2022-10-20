@@ -89,7 +89,8 @@ typings/
 out/
 
 dev/
-src/**/**/**/**/*.js
+*.js
+*.rest
 *.css
 *.html
 *.json
