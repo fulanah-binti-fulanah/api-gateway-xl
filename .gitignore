@@ -88,14 +88,7 @@ typings/
 # Electron-Forge
 out/
 
-dev/
-*.js
-*.rest
-*.css
-*.html
+src/
 *.json
+*.js
 *.lock
-*.scss
-*.png
-*.ico
-*.webmanifest
