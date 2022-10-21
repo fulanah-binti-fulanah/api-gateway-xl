@@ -13,7 +13,7 @@
 -   [ ] MyTelkomsel
 -   [ ] AXISnet
 -   [ ] Griyabayar
--   [ ] Agen BNI 46
+-   [x] Agen BNI 46
 -   [ ] Modern Channel Telkomsel
 -   [x] [Kiosgamer](https://github.com/ndiing/api-gateway/blob/master/src/main/api/kiosgamer/v1/README.md)
 
