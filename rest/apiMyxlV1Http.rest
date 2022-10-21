@@ -2,6 +2,23 @@
 @pin=INPUT_PIN
 @otp=INPUT_OTP
 
+### Login
+GET http://localhost:3000/api/myxl/v1/postApiV1AuthLogin?msisdn={{msisdn}}
+
+### Login
+GET http://localhost:3000/api/myxl/v1/postApiV1AuthLogin?otp={{otp}}
+
+### Token Revoke
+GET http://localhost:3000/api/myxl/v1/postAmOauth2RealmsXlTokenRevoke?
+
+### Access Token
+GET http://localhost:3000/api/myxl/v1/postAmOauth2RealmsXlAccessToken?grant_type=refresh_token
+
+
+
+
+
+
 
 ### Balance Share Fee Include Axis
 GET http://localhost:3000/api/myxl/v1/postSharingsApiV1BalanceShareFeeIncludeAxis?
@@ -59,14 +76,3 @@ GET http://localhost:3000/api/myxl/v1/postApiV1Profile?
 
 
 
-### Login
-GET http://localhost:3000/api/myxl/v1/postApiV1AuthLogin?msisdn={{msisdn}}
-
-### Login
-GET http://localhost:3000/api/myxl/v1/postApiV1AuthLogin?otp={{otp}}
-
-### Token Revoke
-GET http://localhost:3000/api/myxl/v1/postAmOauth2RealmsXlTokenRevoke?
-
-### Access Token
-GET http://localhost:3000/api/myxl/v1/postAmOauth2RealmsXlAccessToken?grant_type=refresh_token

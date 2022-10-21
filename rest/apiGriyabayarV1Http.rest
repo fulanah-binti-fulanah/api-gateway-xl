@@ -1,3 +1,24 @@
-### griyabayar
-GET http://localhost:3000/api/griyabayar/v1
-Accept-Encoding: gzip
+@user_pass=INPUT_USER_PASS
+@user_id=INPUT_USER_ID
+@MAC_ADD=INPUT_MAC_ADD
+
+### Login
+GET http://localhost:3000/api/griyabayar/v1/postBackendFunctionLoginPhp?user_pass={{user_pass}}&user_id={{user_id}}&MAC_ADD={{MAC_ADD}}
+
+### Logout
+GET http://localhost:3000/api/griyabayar/v1/getInterfacePageLogoutPhp?
+
+### GetQuota
+GET http://localhost:3000/api/griyabayar/v1/getBackendFunctionGetQuotaPhp?
+
+### Preinq
+GET http://localhost:3000/api/griyabayar/v1/postBackendFunctionPreinqPhp?uid=800.XL&nopel=087758437457
+
+### Inq
+GET http://localhost:3000/api/griyabayar/v1/postBackendFunctionInqPhp?uid=800.XL&nopel=087758437457&kode=XL10
+
+### Pay
+GET http://localhost:3000/api/griyabayar/v1/postBackendFunctionPayPhp?uid=800.XL&nopel=087758437457&kode=XL10
+
+### Laporan
+GET http://localhost:3000/api/griyabayar/v1/getBackendFunctionLaporanPhp?tgl=2022-10-22&tgl2=2022-10-22
