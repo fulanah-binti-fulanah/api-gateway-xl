@@ -12,7 +12,7 @@
 -   [x] [MyXL](https://github.com/ndiing/api-gateway/blob/master/rest/apiMyxlV1Http.rest)
 -   [ ] MyTelkomsel
 -   [ ] AXISnet
--   [ ] Griyabayar
+-   [-] Griyabayar
 -   [x] [Agen BNI 46](https://github.com/ndiing/api-gateway/blob/master/rest/apiAgenbni46V1Http.rest)
 -   [ ] Modern Channel Telkomsel
 -   [x] [Kiosgamer](https://github.com/ndiing/api-gateway/blob/master/rest/apiKiosgamerV1Http.rest)
