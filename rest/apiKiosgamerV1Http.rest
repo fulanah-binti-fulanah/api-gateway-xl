@@ -1,3 +1,5 @@
+@unknown1=INPUT_UNKNOWN1
+@unknown2=INPUT_UNKNOWN2
 @account=INPUT_ACCOUNT
 @password=INPUT_PASSWORD
 
