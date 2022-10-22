@@ -2,17 +2,17 @@
 @pin=INPUT_PIN
 @otp=INPUT_OTP
 
-### Login Token Refresh
-GET http://localhost:3000/api/sidompul/v1/postV1LoginTokenRefresh?
-
-### Auth Logout
-GET http://localhost:3000/api/sidompul/v1/postV3AuthLogout?
-
 ### Auth
 GET http://localhost:3000/api/sidompul/v1/postV1AuthOtp?msisdn={{msisdn}}
 
 ### Auth Otp
 GET http://localhost:3000/api/sidompul/v1/getV3AuthOtp?msisdn={{msisdn}}&otp={{otp}}
+
+### Login Token Refresh
+GET http://localhost:3000/api/sidompul/v1/postV1LoginTokenRefresh?
+
+### Auth Logout
+GET http://localhost:3000/api/sidompul/v1/postV3AuthLogout?
 
 
 
