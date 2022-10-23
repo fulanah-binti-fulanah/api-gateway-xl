@@ -42,6 +42,9 @@ GET http://localhost:3000/api/agenbni46/v1/getTransaksiPembelianPlnTokenAdvice?c
 ### Transaksi Pembelian Pulsa
 GET http://localhost:3000/api/agenbni46/v1/getTransaksiPembelianPulsa?operator=XL_REG&nominal=5000&msisdn=087758437457&pin_transaksi={{pin_transaksi}}
 
+### Transaksi Pembelian Pulsa
+GET http://localhost:3000/api/agenbni46/v1/getTransaksiPembelianPulsa?operator=XL_REG&nominal=5000&msisdn=087758437457&pin_transaksi={{pin_transaksi}}&confirm=true
+
 ### Transaksi Pembelian Prepaid Data
 GET http://localhost:3000/api/agenbni46/v1/getTransaksiPembelianPrepaidData?operator=XL_DATA&nominal=XL+Data+Xtra+Combo+5GB+%282G%2F3G%2F4G%29+%2B+5GB+%28Youtube%29%2C+20Mnt+%28Anynet%29%2C+30hr%3BXL_07&msisdn=087758437457&pin_transaksi={{pin_transaksi}}
 

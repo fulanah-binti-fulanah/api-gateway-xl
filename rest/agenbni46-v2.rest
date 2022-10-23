@@ -1,3 +1,0 @@
-### agenbni46
-GET http://localhost:3000/api/agenbni46/v1
-Accept-Encoding: gzip
